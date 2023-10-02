@@ -14,7 +14,7 @@ const questions = [
     "answers": [
       {
         "answer": "Estilizar páginas da web",
-        "correct": true
+        "correct": false
       },
       {
         "answer": " Fazer solicitações HTTP",
@@ -26,7 +26,7 @@ const questions = [
       },
       {
         "answer": "Tornar páginas da web interativas",
-        "correct": false
+        "correct": true
       },
     ]
   },
@@ -35,11 +35,11 @@ const questions = [
     "answers": [
       {
         "answer": "let myVar = 10",
-        "correct": false
+        "correct": true
       },
       {
         "answer": "variable myVar = 10",
-        "correct": true
+        "correct": false
       },
       {
         "answer": "var myVar = 10",
@@ -56,7 +56,7 @@ const questions = [
     "answers": [
       {
         "answer": "<!-- Isso é um comentário -->",
-        "correct": true
+        "correct": false
       },
       {
         "answer": " /* Isso é um comentário */",
@@ -64,7 +64,7 @@ const questions = [
       },
       {
         "answer": "// Isso é um comentário",
-        "correct": false
+        "correct": true
       },
       {
         "answer": "' Isso é um comentário '",
@@ -77,7 +77,7 @@ const questions = [
     "answers": [
       {
         "answer": "Boolean",
-        "correct": true
+        "correct": false
       },
       {
         "answer": "String",
@@ -85,7 +85,7 @@ const questions = [
       },
       {
         "answer": " Character",
-        "correct": false
+        "correct": true
       },
       {
         "answer": "Number",
