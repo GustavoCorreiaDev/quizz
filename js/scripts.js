@@ -85,7 +85,7 @@ function createQuestion(i) {
   // Limpa questão anterior
   const oldButtons = answersBox.querySelectorAll("button");
 
-  oldButtons.forEach(function(btn) {
+  oldButtons.forEach(function (btn) {
     btn.remove();
   });
 
@@ -97,8 +97,8 @@ function createQuestion(i) {
   questionNumber.textContent = i + 1;
 
   // Insere alternativas
-  questions[i].answers.forEach(function(answer, i) {
-    
+  questions[i].answers.forEach(function (answer, i) {
+
     // Altera texto do template
     const answerTemplate = document.querySelector(".answer-template").cloneNode(true);
 
@@ -122,8 +122,8 @@ function createQuestion(i) {
   // Cria evento em todos os botões
   const buttons = answersBox.querySelectorAll("button");
 
-  buttons.forEach(function(button) {
-    button.addEventListener("click", function() {
+  buttons.forEach(function (button) {
+    button.addEventListener("click", function () {
       checkAnswer(this, buttons);
     });
   });
@@ -135,14 +135,14 @@ function createQuestion(i) {
 
 // Verificando se resposta está correta
 function checkAnswer(btn, buttons) {
-  
-  // Exibir respostas erradas e a certa
-  buttons.forEach(function(button) {
 
-    if(button.getAttribute("correct-answer") === "true") {
+  // Exibir respostas erradas e a certa
+  buttons.forEach(function (button) {
+
+    if (button.getAttribute("correct-answer") === "true") {
       button.classList.add("correct-answer");
       // checa se o usuário acertou
-      if(btn === button) {
+      if (btn === button) {
         // incrementa os pontos
         points++;
       }
@@ -160,10 +160,10 @@ function checkAnswer(btn, buttons) {
 function nextQuestion() {
 
   // Timer para ver se acertou ou errou
-  setTimeout(function() {
+  setTimeout(function () {
 
     // checa se ainda há mais perguntas
-    if(actualQuestion >= questions.length) {
+    if (actualQuestion >= questions.length) {
       // apresenta msg de sucesso
       showSuccessMessage();
       return;
@@ -199,7 +199,7 @@ function showSuccessMessage() {
 // Reiniciar Quizz
 const restartBtn = document.querySelector("#restart");
 
-restartBtn.addEventListener("click", function() {
+restartBtn.addEventListener("click", function () {
   actualQuestion = 0;
   points = 0;
   hideOrShowQuizz();
