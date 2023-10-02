@@ -10,64 +10,85 @@ let actualQuestion = 0;
 // Perguntas
 const questions = [
   {
-    "question": "PHP foi desenvolvido para qual fim?",
+    "question": "Qual é o objetivo principal do JavaScript?",
     "answers": [
       {
-        "answer": "back-end",
+        "answer": "Estilizar páginas da web",
         "correct": true
       },
       {
-        "answer": "front-end",
+        "answer": " Fazer solicitações HTTP",
         "correct": false
       },
       {
-        "answer": "Sistema operacional",
+        "answer": "Criar páginas web",
         "correct": false
       },
       {
-        "answer": "Banco de dados",
+        "answer": "Tornar páginas da web interativas",
         "correct": false
       },
     ]
   },
   {
-    "question": "Uma forma de declarar variável em JavaScript:",
+    "question": "Qual é a forma correta de declarar uma variável em JavaScript?",
     "answers": [
       {
-        "answer": "$var",
+        "answer": "let myVar = 10",
         "correct": false
       },
       {
-        "answer": "var",
+        "answer": "variable myVar = 10",
         "correct": true
       },
       {
-        "answer": "@var",
+        "answer": "var myVar = 10",
         "correct": false
       },
       {
-        "answer": "#let",
+        "answer": "const myVar = 10",
         "correct": false
       },
     ]
   },
   {
-    "question": "Qual o seletor de id no CSS?",
+    "question": "Como você faz um comentário de uma linha em JavaScript?",
     "answers": [
       {
-        "answer": "#",
+        "answer": "<!-- Isso é um comentário -->",
         "correct": true
       },
       {
-        "answer": ".",
+        "answer": " /* Isso é um comentário */",
         "correct": false
       },
       {
-        "answer": "@",
+        "answer": "// Isso é um comentário",
         "correct": false
       },
       {
-        "answer": "/",
+        "answer": "' Isso é um comentário '",
+        "correct": false
+      },
+    ]
+  },
+  {
+    "question": "Qual dos seguintes não é um tipo de dado em JavaScript?",
+    "answers": [
+      {
+        "answer": "Boolean",
+        "correct": true
+      },
+      {
+        "answer": "String",
+        "correct": false
+      },
+      {
+        "answer": " Character",
+        "correct": false
+      },
+      {
+        "answer": "Number",
         "correct": false
       },
     ]
