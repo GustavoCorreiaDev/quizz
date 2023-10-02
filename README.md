@@ -1,4 +1,4 @@
-## Quiz de JavaScript em VanillaJS
+# Quiz de JavaScript em VanillaJS
 
 Este é um projeto de um quiz interativo sobre JavaScript, desenvolvido em Vanilla JavaScript, que testará seu conhecimento na linguagem de programação JavaScript. É uma ferramenta educativa que permite que os usuários pratiquem e aprimorem suas habilidades em JavaScript.
 
@@ -14,6 +14,6 @@ Contagem de Pontuação: O quiz acompanha a pontuação do usuário e exibe-a no
 
 Reiniciar o Quiz: Após concluir o quiz, o usuário pode optar por reiniciá-lo para praticar ainda mais.
 
-#Como Usar
+# Como Usar
 
 https://gustavocorreiadev.github.io/quizz/
